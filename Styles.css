@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+*{
+    font-family: calibri;
+}
+
+/* Esto es en encabezado con sus propiedades */
+header{
+    background-image: url("pruebita2.jpg");
+    background-repeat: repeat;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    line-height: 380%;
+    color:whitesmoke;
+    font-size: 200%;
+
+}
+
+#rayanegra{
+
+    background: black;
+    height: 7%;
+    line-height: 120%;
+    width: 100%;
+    
+
+}
+
+h3{
+    font-size: 80%;
+    text-align: top;
+    height: auto;
+    line-height: 10%;
+    font: white;
+}
+
+/*aca se le quita la forma de lista al menu*/
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 1%;
+    
+    
+
+}
+/* propiedades de la barra del menu*/
+#menu{
+    background: black;
+    height: 7%;
+    line-height: 120%;
+    position: fixed;
+    width: 100%;
+    
+}
+/*aca es para es estilo de las opciones del menu*/
+nav ul li a{
+    color:white;
+     text-decoration: none;
+     font-size: 200%;
+     
+     
+     
+ }
+ 
+
+/* es para que cuando pongas el mouse el el menu se ponga de otro color*/
+nav li a:hover{
+ background-color: orange;
+ padding-bottom: 5%;
+ 
+}
+
+.clearfix{
+    clear: both;
+    
+}
+/* toda la info de la pagina del contenido*/
+#contenido{
+    float: left;
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+    background-color: rgb(58, 53, 53);
+    color: white;
+}
+
+/* el pie de pagina*/
+footer{
+    background:black;
+    color: white;
+    height:20%;
+    line-height: 50px;
+    text-align: center ;
+    box-shadow: white;
+    
+
+}
+
+#titlelen{
+    font-size: 300%;
+    color:orange;
+}
+#exlenguajes{
+    text-align: center;
+    font-size: 150%;
+}
+#titleproye{
+    font-size: 210%;
+    color: orange;
+    float: middle;
+}
+#exproye{
+    text-align: middle;
+    font-size: 70%;
+    color: white;
+
+}
+
+nav{
+    padding-left: 30%;
+}
